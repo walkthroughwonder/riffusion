@@ -1,0 +1,23 @@
+{
+  "name": "breaking-wave",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.163.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.0"
+  }
+}
